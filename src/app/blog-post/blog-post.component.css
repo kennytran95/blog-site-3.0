@@ -1,0 +1,31 @@
+.post-container {
+  border: solid 1px darkgray;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 65vw;
+  margin: 2rem 0rem;
+}
+
+.post-title {
+  font-size: 2rem;
+}
+
+.post-username {
+  transition: all 200ms ease-in-out;
+}
+
+.post-username:hover {
+  color: rgb(80, 80, 255);
+  cursor: pointer;
+}
+
+.post-date {
+  font-size: 0.8rem;
+  font-weight: 100;
+}
+
+.post-body {
+  font-weight: 100;
+  font-size: 1rem;
+  margin: 0.5rem 0rem;
+}
